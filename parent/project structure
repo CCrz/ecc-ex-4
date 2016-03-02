@@ -1,0 +1,19 @@
+-parent
+	+pom.xml
+	
+	-app 	 --depends--> service
+		+src
+		+target
+		+pom.xml
+	
+	-service --depends--> model
+		+src
+		+target
+		+pom.xml
+	
+	-model
+		+src
+		+target
+		+pom.xml
+	
+	
