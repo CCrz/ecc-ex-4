@@ -8,8 +8,8 @@ public class Main
 {
     public static void main( String[] args )
     {
-        Helper app = new Helper(args);
+        Helper ap = new Helper(args);
 		
-		app.start();
+		ap.start();
     }
 }
